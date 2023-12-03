@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="" srcset="" height="100px">
+  </header>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="noticias.html">News</a>
+        <a class="active" href="contato.html">Contato</a>
+        <a href="sobre.html">Sobre</a>
+      </div> 
+      <div class="container">
+        <div style="text-align:center">
+          <h2>Contato</h2>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="contact.png" style="width:100%">
+          </div>
+          <div class="column">
+            <form >
+              <label for="fname">Nome</label>
+              <input type="text" id="fname" name="firstname" placeholder="Nome">
+              <label for="email">E-mail</label>
+              <br>
+              <input type="text" id="email" name="E-mail" placeholder="E-mail">
+              <br>
+              <label for="subject">Mensagem</label>
+              <textarea id="subject" name="subject" placeholder="Escreva aqui" style="height:170px"></textarea>
+              <input type="submit" value="Enviar" onclick="verify()">
+            </form>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p>Copyright@2023</p>
+       </footer> 
+      <script src="index.js"></script>
+</body>
+</html>
